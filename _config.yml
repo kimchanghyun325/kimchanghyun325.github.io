@@ -67,7 +67,6 @@ content:
   - title: 학습 성찰
     layout: list
     content: 
-      - layout: left
       description:  
         학습 할애 시간 : 화요일과 수요일은 아르바이트가 있어 비교적 수업이 없는 주말과 월요일을 활용.  
         학습 스타일 : 암기보다는 이해를 기반으로 공부. 하지만 암기가 필요한 부분은 암기를 위해 노트에 필기.
@@ -76,7 +75,6 @@ content:
   - title: 스택
     layout: list
     content:
-      - layout: left
       description:  
          JAVA
          UNITY
