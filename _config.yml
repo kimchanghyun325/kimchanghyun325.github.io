@@ -46,60 +46,64 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: 소개  # Title for the section
-    layout: text  # Type of content section (list/text)
+    layout: list  # Type of content section (list/text)
     content: |
-       현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고|
-       현재는 유니티 프로젝트를 계획중입니다.|
-       또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력합니다.|
-       배운 것을 아는데서 멈추기보다 활용하는 것에 더 가치를 두고 활용해보려고 노력합니다.|
-       종종 무엇을 하면 큰 돈을 벌수 있는가에 대한 아이디어 관한 생각을 많이 합니다.|
-       창업에 흥미가 있고 개발만 하기보다는 회사에서의 결정에 기여하기를 원합니다.|	
+      caption:
+        현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고|
+        현재는 유니티 프로젝트를 계획중입니다.|
+        또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력합니다.|
+        배운 것을 아는데서 멈추기보다 활용하는 것에 더 가치를 두고 활용해보려고 노력합니다.|
+        종종 무엇을 하면 큰 돈을 벌수 있는가에 대한 아이디어 관한 생각을 많이 합니다.|
+        창업에 흥미가 있고 개발만 하기보다는 회사에서의 결정에 기여하기를 원합니다.|	
   - title: 장단점
     layout: list
     content:
       - layout: top-left
-      - sub_title: 장점 
+      - title: 장점 
         caption:  무언가를 이해하려고 하고 이해하는 것을 최우선으로 둡니다.   
-      - sub_title: 단점
+      - title: 단점
         caption:  이해하려는 고집이 강해 시간적으로 부족한 경우가 많습니다.  
   - title: 학습 성찰
     layout: list
     content: 
-      quote: >
-        학습 할애 시간 : 화요일과 수요일은 아르바이트가 있어 비교적 수업이 없는 주말과 월요일을 활용.  
-        학습 스타일 : 암기보다는 이해를 기반으로 공부. 하지만 암기가 필요한 부분은 암기를 위해 노트에 필기.
-        적극적 참여 : 모르는게 있다면 옆사람이던 교수님이던 간에 질문하는 스타일.
-        학습 환경 : 현재는 집에서 주로 공부하는 편. 시험기간에는 도서관에 가기도 한다.
+      - title: 학습 할애 시간
+        caption:  화요일과 수요일은 아르바이트가 있어 비교적 수업이 없는 주말과 월요일을 활용.    
+      - title: 학습 스타일
+        caption : 암기보다는 이해를 기반으로 공부. 하지만 암기가 필요한 부분은 암기를 위해 노트에 필기.
+      - title:  적극적 참여
+        caption: 모르는게 있다면 옆사람이던 교수님이던 간에 질문하는 스타일.
+      - title:  학습 환경
+        caption: 현재는 집에서 주로 공부하는 편. 시험기간에는 도서관에 가기도 한다.
   - title: 스택
     layout: list
     content:
-      quote: > 
-        JAVA
-        UNITY
-        C
-        PYTHON
-        LINUX 
+      - title: JAVA
+      - title: UNITY
+      - title: C
+      - title: PYTHON
+      - title: LINUX 
         #83
   - title: 학점
     layout: list
     content:
-      quote: > 
-        2학년 1학기 3.9
-        교양제외  4.25
+      - title: 2학년 1학기 
+      - sub_title: 3.9
+      - title:  교양제외
+      - sub_title: 4.25
       
-        목표
-        교양 포함 4.3
+      - title: 목표
+      - sub_title:  교양 포함 4.3
       
-        피드백  전공에 비해서 교양의 점수가 낮아 총학점이 낮아지는 경우가 빈번.
-                그러므로 전공이 아니더라도 공부를 조금 더 주의있게 할 것.
+      - title:  피드백 
+      - sub_title: 전공에 비해서 교양의 점수가 낮아 총학점이 낮아지는 경우가 빈번.|
+                   그러므로 전공이 아니더라도 공부를 조금 더 주의있게 할 것.
 
   - title: 현재 수강중인 전공
     layout : list
     content:
-      quote: >
-        VR/AR/게임제작기초 = UNITY / 이정교수님
-        파이썬 과학 프로그래밍 = PYTHON / 김종대교수님
-        오픈소스 SW개발도구활용 = LINUX / 고영웅 교수님
+      - title: VR/AR/게임제작기초 = UNITY / 이정교수님
+      - title: 파이썬 과학 프로그래밍 = PYTHON / 김종대교수님
+      - title: 오픈소스 SW개발도구활용 = LINUX / 고영웅 교수님
 
   - title: 진행중인 프로젝트
     layout: list
@@ -112,14 +116,13 @@ content:
 
   - title: 활동
     layout: list
-    content: | # this will include new lines to allow paragraphs
-      quote: >  
-        학술동아리 멀티플렉스 활동
-        게임개발자에게 요구되는 역량이란? 특강 수료
-        github 이력서 해커톤 참가
-        미래기술 특허 아이디어 경진대회 참가
-        유니티 텀프로젝트: 디펜스 게임 진행
-        2022 SW Coading Festival 참가 
+    content: | # this will include new lines to allow paragraphs  
+        title: 학술동아리 멀티플렉스 활동
+        title:  게임개발자에게 요구되는 역량이란? 특강 수료
+        title: github 이력서 해커톤 참가
+        title: 미래기술 특허 아이디어 경진대회 참가
+        title: 유니티 텀프로젝트: 디펜스 게임 진행
+        title: 2022 SW Coading Festival 참가 
 
 # Footer
 footer_show_references: true
