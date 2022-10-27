@@ -8,6 +8,16 @@ version: 2
 # Dark Mode (true/false/never)
 darkmode: true
 
+# Personal info
+#name: Your Name
+#title: Your job title
+#email: Your email (optional)
+# email_title: Email (Email title override)
+#phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+#website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
 # Social links
 github_username: https://github.com/kimchanghyun325
 facebook_username: https://www.facebook.com/profile.php?id=100008936837111
@@ -32,40 +42,37 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://scontent.ficn3-3.fna.fbcdn.net/v/t39.30808-6/243182300_2630624280578774_3312350706822483372_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=fB1BQK_U4OcAX_O5j5l&_nc_ht=scontent.ficn3-3.fna&oh=00_AfCIBiSPocNoWF9JKL5ANXJTS5pW1arTXAEzWdsagpWiOg&oe=635EE21D
 about_content: | # this will include new lines to allow paragraphs
-   My Profile
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  
 
-   이름: 김창현| 
-   나이: 23|
-   학교: 한림대학교|
-   학과: 빅데이터 학과|
-   군대: 28사단 포병연대 작전병 병장 만기전역|
-   연락처 : 010-9270-6579|
-   E-mail : kch633@naver.com|
-   취미 : 해외축구 보기|
-   좋아하는 팀 :  <a href = "https://kr.mancity.com/">맨체스터 시티</a>| 
-
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees") 
 content:
-  - title: 소개  # Title for the section
-    layout: list  # Type of content section (list/text)
+  - title: Introduction  # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
-      description: |
-          현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고
-          현재는 유니티 프로젝트를 계획중입니다.
-          또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력합니다.
-          배운 것을 아는데서 멈추기보다 활용하는 것에 더 가치를 두고 활용해보려고 노력합니다.
-          종종 무엇을 하면 큰 돈을 벌수 있는가에 대한 아이디어 관한 생각을 많이 합니다.
-          창업에 흥미가 있고 개발만 하기보다는 회사에서의 결정에 기여하기를 원합니다.	
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        
+        현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고
+	현재는 유니티 프로젝트를 계획중입니다.
+	또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력하고
+	배운 것을 아는데서 멈추기보다 활용하는 것에 더 가치를 두고 활용해보려고 노력합니다.
+	종종 무엇을 하면 큰 돈을 벌수 있는가에 대한 아이디어 관한 생각을 많이 합니다.
+	창업에 흥미가 있고 개발만 하기보다는 회사에서의 결정에 기여하기를 원합니다.	
   - title: 장단점
     layout: list
-    content:
-      description: | 
-        장점 : 무언가를 이해하려고 하고 이해하는 것을 최우선으로 둡니다.   
-        단점 : 이해하려는 고집이 강해 시간적으로 부족한 경우가 많습니다.  
+    content: 
+         장점 : 무언가를 이해하려고 하고 이해하는 것을 최우선으로 둡니다.   
+         단점 : 이해하려는 고집이 강해 시간적으로 부족한 경우가 많습니다.  
   - title: 학습 성찰
     layout: list
     content: 
-      description: |
+      - layout: left
         학습 할애 시간 : 화요일과 수요일은 아르바이트가 있어 비교적 수업이 없는 주말과 월요일을 활용.  
         학습 스타일 : 암기보다는 이해를 기반으로 공부. 하지만 암기가 필요한 부분은 암기를 위해 노트에 필기.
         적극적 참여 : 모르는게 있다면 옆사람이던 교수님이던 간에 질문하는 스타일.
@@ -73,38 +80,36 @@ content:
   - title: 스택
     layout: list
     content:
-      description: | 
-        JAVA
-        UNITY
-        C
-        PYTHON
-        LINUX 
-        #83
-  - title: 학점
+      - layout: left
+        - JAVA
+        - UNITY
+        - C
+        - PYTHON
+        - LINUX
+   - title: 학점
+     layout: list
+     content:
+      2학년 1학기 : 3.9
+      교양제외 ==> 4.25
+      
+     - 목표
+      교양 포함 4.3
+      
+      피드백: 전공에 비해서 교양의 점수가 낮아 총학점이 낮아지는 경우가 빈번.
+              그러므로 전공이 아니더라도 공부를 조금 더 주의있게 할 것.
+
+   - title: 현재 수강중인 전공
+     layout : list
+     content:
+       - VR/AR/게임제작기초 = UNITY / 이정교수님
+       - 파이썬 과학 프로그래밍 = PYTHON / 김종대교수님
+       - 오픈소스 SW개발도구활용 = LINUX / 고영웅 교수님
+
+
+   - title: 진행중인 프로젝트
     layout: list
     content:
-      description: | 
-        2학년 1학기 3.9
-        교양제외  4.25
-      
-        목표
-        교양 포함 4.3
-      
-        피드백  전공에 비해서 교양의 점수가 낮아 총학점이 낮아지는 경우가 빈번.
-                그러므로 전공이 아니더라도 공부를 조금 더 주의있게 할 것.
-
-  - title: 현재 수강중인 전공
-    layout : list
-    content:
-      description: | 
-        VR/AR/게임제작기초 = UNITY / 이정교수님
-        파이썬 과학 프로그래밍 = PYTHON / 김종대교수님
-        오픈소스 SW개발도구활용 = LINUX / 고영웅 교수님
-
-  - title: 진행중인 프로젝트
-    layout: list
-    content:  
-      - layout: top-left
+      - layout: top-right
         title: 디펜스게임 만들기 
         sub_title: Unity
         caption: 유니티를 활용해 몰려오는 몬스터들을 막는  디펜스 게임.
@@ -113,13 +118,12 @@ content:
   - title: 활동
     layout: list
     content: | # this will include new lines to allow paragraphs
-      description:  
-        학술동아리 멀티플렉스 활동
-        게임개발자에게 요구되는 역량이란? 특강 수료
-        github 이력서 해커톤 참가
-        미래기술 특허 아이디어 경진대회 참가
-        유니티 텀프로젝트: 디펜스 게임 진행
-        2022 SW Coading Festival 참가 
+      - 학술동아리 멀티플렉스 활동
+      - 게임개발자에게 요구되는 역량이란? 특강 수료
+      - github 이력서 해커톤 참가
+      - 미래기술 특허 아이디어 경진대회 참가
+      - 유니티 텀프로젝트: 디펜스 게임 진행
+      - 2022 SW Coading Festival 참가
 
 # Footer
 footer_show_references: true
@@ -132,7 +136,7 @@ footer_show_references: true
 sass:
   sass_dir: _sass
   style: compressed
- 
+
 plugins:
  - jekyll-seo-tag
 
