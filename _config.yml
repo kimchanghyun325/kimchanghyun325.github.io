@@ -123,6 +123,10 @@ content:
       - sub_title: 미래기술 특허 아이디어 경진대회 참가
       - sub_title: 유니티 텀프로젝트: 디펜스 게임 진행
       - sub_title: 2022 SW Coading Festival 참가
+  - title: Final
+    layout: list
+    content: |
+      - title: final
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
