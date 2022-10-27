@@ -47,7 +47,8 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: 소개  # Title for the section
     layout: list  # Type of content section (list/text)
-    content: 
+    content:
+      - layout: center
       - caption: 현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고
       - caption: 현재는 유니티 프로젝트를 계획중입니다.
       - caption: 또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력합니다.
@@ -115,7 +116,7 @@ content:
 
   - title: 활동
     layout: list
-    content: | # this will include new lines to allow paragraphs  
+    content:  # this will include new lines to allow paragraphs  
       - title: 학술동아리 멀티플렉스 활동
       - title: 게임개발자에게 요구되는 역량이란? 특강 수료
       - title: github 이력서 해커톤 참가
