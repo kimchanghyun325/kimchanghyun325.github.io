@@ -32,23 +32,18 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://scontent.ficn3-3.fna.fbcdn.net/v/t39.30808-6/243182300_2630624280578774_3312350706822483372_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=fB1BQK_U4OcAX_O5j5l&_nc_ht=scontent.ficn3-3.fna&oh=00_AfCIBiSPocNoWF9JKL5ANXJTS5pW1arTXAEzWdsagpWiOg&oe=635EE21D
 about_content: | # this will include new lines to allow paragraphs
-  My Profile
+   My Profile
 
- -  이름 : 김창현
- -  나이 : 23
- -  학교 : 한림대학교
- -  학과 : 빅데이터 학과
- -  군대 : 28사단 포병연대 작전병 병장 만기전역
- -  연락처 : 010-9270-6579
- -  E-mail : kch633@naver.com
- -  취미 : 해외축구 보기
- -  좋아하는 팀 :  <a href = "https://kr.mancity.com/">맨체스터 시티</a> 
+  -  이름 : 김창현
+  -  나이 : 23
+  -  학교 : 한림대학교
+  -  학과 : 빅데이터 학과
+  -  군대 : 28사단 포병연대 작전병 병장 만기전역
+  -  연락처 : 010-9270-6579
+  -  E-mail : kch633@naver.com
+  -  취미 : 해외축구 보기
+  -  좋아하는 팀 :  <a href = "https://kr.mancity.com/">맨체스터 시티</a> 
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 content:
   - title: Introduction  # Title for the section
     layout: list # Type of content section (list/text)
