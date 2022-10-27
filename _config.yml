@@ -48,7 +48,7 @@ content:
   - title: 소개  # Title for the section
     layout: list  # Type of content section (list/text)
     content:
-      description: |
+      quote: >
           현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고
           현재는 유니티 프로젝트를 계획중입니다.
           또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력합니다.
@@ -58,13 +58,13 @@ content:
   - title: 장단점
     layout: list
     content:
-      description: | 
+      quote: > 
         장점 : 무언가를 이해하려고 하고 이해하는 것을 최우선으로 둡니다.   
         단점 : 이해하려는 고집이 강해 시간적으로 부족한 경우가 많습니다.  
   - title: 학습 성찰
     layout: list
     content: 
-      description: |
+      quote: >
         학습 할애 시간 : 화요일과 수요일은 아르바이트가 있어 비교적 수업이 없는 주말과 월요일을 활용.  
         학습 스타일 : 암기보다는 이해를 기반으로 공부. 하지만 암기가 필요한 부분은 암기를 위해 노트에 필기.
         적극적 참여 : 모르는게 있다면 옆사람이던 교수님이던 간에 질문하는 스타일.
@@ -72,7 +72,7 @@ content:
   - title: 스택
     layout: list
     content:
-      description: | 
+      quote: > 
         JAVA
         UNITY
         C
@@ -82,7 +82,7 @@ content:
   - title: 학점
     layout: list
     content:
-      description: | 
+      quote: > 
         2학년 1학기 3.9
         교양제외  4.25
       
@@ -95,7 +95,7 @@ content:
   - title: 현재 수강중인 전공
     layout : list
     content:
-      description: | 
+      quote: >
         VR/AR/게임제작기초 = UNITY / 이정교수님
         파이썬 과학 프로그래밍 = PYTHON / 김종대교수님
         오픈소스 SW개발도구활용 = LINUX / 고영웅 교수님
@@ -112,7 +112,7 @@ content:
   - title: 활동
     layout: list
     content: | # this will include new lines to allow paragraphs
-      description:  
+      quote: >  
         학술동아리 멀티플렉스 활동
         게임개발자에게 요구되는 역량이란? 특강 수료
         github 이력서 해커톤 참가
