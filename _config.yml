@@ -47,14 +47,13 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: 소개  # Title for the section
     layout: list  # Type of content section (list/text)
-    content: |
-      - caption:
-      - caption: 현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고|
-      - caption: 현재는 유니티 프로젝트를 계획중입니다.|
-      - caption: 또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력합니다.|
-      - caption: 배운 것을 아는데서 멈추기보다 활용하는 것에 더 가치를 두고 활용해보려고 노력합니다.|
-      - caption: 종종 무엇을 하면 큰 돈을 벌수 있는가에 대한 아이디어 관한 생각을 많이 합니다.|
-      - caption: 창업에 흥미가 있고 개발만 하기보다는 회사에서의 결정에 기여하기를 원합니다.|	
+    content: 
+      - caption: 현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고
+      - caption: 현재는 유니티 프로젝트를 계획중입니다.
+      - caption: 또한 정주영 회장의 말인 "시련은 있어도 실패는 없는거야" 라는 말을 항상 기억하며 살려고 노력합니다.
+      - caption: 배운 것을 아는데서 멈추기보다 활용하는 것에 더 가치를 두고 활용해보려고 노력합니다.
+      - caption: 종종 무엇을 하면 큰 돈을 벌수 있는가에 대한 아이디어 관한 생각을 많이 합니다.
+      - caption: 창업에 흥미가 있고 개발만 하기보다는 회사에서의 결정에 기여하기를 원합니다.	
   - title: 장단점
     layout: list
     content:
@@ -118,7 +117,7 @@ content:
     layout: list
     content: | # this will include new lines to allow paragraphs  
       - title: 학술동아리 멀티플렉스 활동
-      - title:  게임개발자에게 요구되는 역량이란? 특강 수료
+      - title: 게임개발자에게 요구되는 역량이란? 특강 수료
       - title: github 이력서 해커톤 참가
       - title: 미래기술 특허 아이디어 경진대회 참가
       - title: 유니티 텀프로젝트: 디펜스 게임 진행
