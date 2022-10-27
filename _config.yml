@@ -79,13 +79,14 @@ content:
         UNITY
         C
         PYTHON
-        LINUX
+        LINUX 
+        #81
   - title: 학점
     layout: list
     content:
       description:  
-        2학년 1학기 : 3.9
-        교양제외 ==> 4.25
+        2학년 1학기 3.9
+        교양제외  4.25
       
         목표
         교양 포함 4.3
