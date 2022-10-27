@@ -114,15 +114,15 @@ content:
         caption: 유니티를 활용해 몰려오는 몬스터들을 막는  디펜스 게임.
         
   - title: 활동
-    layout: text
-    content:   
-      학술동아리 멀티플렉스 활동|
-      게임개발자에게 요구되는 역량이란? 특강 수료|
-      github 이력서 해커톤 참가|
-      미래기술 특허 아이디어 경진대회 참가|
-      유니티 텀프로젝트: 디펜스 게임 진행|
-      2022 SW Coading Festival 참가 |
-
+    layout: list
+    content: 
+      - layout: top-left
+      - sub_title: 학술동아리 멀티플렉스 활동
+      - sub_title: 게임개발자에게 요구되는 역량이란? 특강 수료
+      - sub_title: github 이력서 해커톤 참가
+      - sub_title: 미래기술 특허 아이디어 경진대회 참가
+      - sub_title: 유니티 텀프로젝트: 디펜스 게임 진행
+      - sub_title: 2022 SW Coading Festival 참가
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
