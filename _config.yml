@@ -48,7 +48,6 @@ content:
   - title: 소개  # Title for the section
     layout: list  # Type of content section (list/text)
     content:
-      - layout: left
       description: |
           현재 한림대학교에서 컴퓨터를 공부하고 있으며 여러 프로젝트를 계획중에 있고
           현재는 유니티 프로젝트를 계획중입니다.
