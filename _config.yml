@@ -62,27 +62,27 @@ content:
     layout: list
     content:
        description:   
-        -  장점 : 무언가를 이해하려고 하고 이해하는 것을 최우선으로 둡니다.   
-        -  단점 : 이해하려는 고집이 강해 시간적으로 부족한 경우가 많습니다.  
+         장점 : 무언가를 이해하려고 하고 이해하는 것을 최우선으로 둡니다.   
+         단점 : 이해하려는 고집이 강해 시간적으로 부족한 경우가 많습니다.  
   - title: 학습 성찰
     layout: list
     content: 
       - layout: left
       description:  
-       -  학습 할애 시간 : 화요일과 수요일은 아르바이트가 있어 비교적 수업이 없는 주말과 월요일을 활용.  
-       -  학습 스타일 : 암기보다는 이해를 기반으로 공부. 하지만 암기가 필요한 부분은 암기를 위해 노트에 필기.
-       -  적극적 참여 : 모르는게 있다면 옆사람이던 교수님이던 간에 질문하는 스타일.
-       -  학습 환경 : 현재는 집에서 주로 공부하는 편. 시험기간에는 도서관에 가기도 한다.
+        학습 할애 시간 : 화요일과 수요일은 아르바이트가 있어 비교적 수업이 없는 주말과 월요일을 활용.  
+        학습 스타일 : 암기보다는 이해를 기반으로 공부. 하지만 암기가 필요한 부분은 암기를 위해 노트에 필기.
+        적극적 참여 : 모르는게 있다면 옆사람이던 교수님이던 간에 질문하는 스타일.
+        학습 환경 : 현재는 집에서 주로 공부하는 편. 시험기간에는 도서관에 가기도 한다.
   - title: 스택
     layout: list
     content:
       - layout: left
       description:  
-        - JAVA
-        - UNITY
-        - C
-        - PYTHON
-        - LINUX
+         JAVA
+         UNITY
+         C
+         PYTHON
+         LINUX
    - title: 학점
      layout: list
      content:
@@ -90,7 +90,7 @@ content:
       2학년 1학기 : 3.9
       교양제외 ==> 4.25
       
-     - 목표
+      목표
       교양 포함 4.3
       
       피드백: 전공에 비해서 교양의 점수가 낮아 총학점이 낮아지는 경우가 빈번.
@@ -100,9 +100,9 @@ content:
      layout : list
      content:
      description:  
-       - VR/AR/게임제작기초 = UNITY / 이정교수님
-       - 파이썬 과학 프로그래밍 = PYTHON / 김종대교수님
-       - 오픈소스 SW개발도구활용 = LINUX / 고영웅 교수님
+        VR/AR/게임제작기초 = UNITY / 이정교수님
+        파이썬 과학 프로그래밍 = PYTHON / 김종대교수님
+        오픈소스 SW개발도구활용 = LINUX / 고영웅 교수님
 
 
    - title: 진행중인 프로젝트
@@ -119,12 +119,12 @@ content:
     layout: list
     content: | # this will include new lines to allow paragraphs
     description:  
-      - 학술동아리 멀티플렉스 활동
-      - 게임개발자에게 요구되는 역량이란? 특강 수료
-      - github 이력서 해커톤 참가
-      - 미래기술 특허 아이디어 경진대회 참가
-      - 유니티 텀프로젝트: 디펜스 게임 진행
-      - 2022 SW Coading Festival 참가
+       학술동아리 멀티플렉스 활동
+       게임개발자에게 요구되는 역량이란? 특강 수료
+       github 이력서 해커톤 참가
+       미래기술 특허 아이디어 경진대회 참가
+       유니티 텀프로젝트: 디펜스 게임 진행
+       2022 SW Coading Festival 참가
 
 # Footer
 footer_show_references: true
